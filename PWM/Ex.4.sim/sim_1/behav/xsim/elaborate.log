@@ -1,0 +1,12 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 7646f03f0f024eb3be43c7ef81427c38 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_behav xil_defaultlib.TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 7 for port 'in0' [C:/Users/vladu/OneDrive/Desktop/ANUL 2/SEM 2/CID/TEST 2/Lab_10/Ex.4/Ex.4.srcs/sources_1/new/PWM.v:17]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'en' [C:/Users/vladu/OneDrive/Desktop/ANUL 2/SEM 2/CID/TEST 2/Lab_10/Ex.4/Ex.4.srcs/sources_1/new/PWM.v:27]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 7 for port 'in0' [C:/Users/vladu/OneDrive/Desktop/ANUL 2/SEM 2/CID/TEST 2/Lab_10/Ex.4/Ex.4.srcs/sources_1/new/PWM.v:47]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 7 for port 'in0' [C:/Users/vladu/OneDrive/Desktop/ANUL 2/SEM 2/CID/TEST 2/Lab_10/Ex.4/Ex.4.srcs/sources_1/new/PWM.v:62]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
